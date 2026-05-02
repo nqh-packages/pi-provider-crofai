@@ -19,7 +19,7 @@ pi install npm:pi-provider-crofai
 From GitHub:
 
 ```bash
-pi install git:github.com/ngoquochuy/pi-provider-crofai
+pi install git:github.com/nqh-packages/pi-provider-crofai
 ```
 
 From a local checkout:
