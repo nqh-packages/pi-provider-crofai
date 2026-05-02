@@ -1,0 +1,46 @@
+{
+  "name": "pi-provider-crofai",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "CrofAI model provider extension for the pi coding agent.",
+  "keywords": [
+    "pi-package",
+    "pi",
+    "pi-extension",
+    "provider",
+    "crofai",
+    "openai-compatible",
+    "llm"
+  ],
+  "license": "MIT",
+  "author": "Huy Ngo",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ngoquochuy/pi-provider-crofai.git"
+  },
+  "homepage": "https://github.com/ngoquochuy/pi-provider-crofai#readme",
+  "bugs": {
+    "url": "https://github.com/ngoquochuy/pi-provider-crofai/issues"
+  },
+  "files": [
+    "extensions/",
+    "README.md",
+    "LICENSE"
+  ],
+  "exports": {
+    ".": "./extensions/index.ts"
+  },
+  "pi": {
+    "extensions": [
+      "./extensions/index.ts"
+    ]
+  },
+  "scripts": {
+    "build": "echo 'nothing to build'",
+    "check": "echo 'typecheck this package inside a pi dev checkout or load it with pi -e .'",
+    "prepublishOnly": "npm run check"
+  },
+  "peerDependencies": {
+    "@mariozechner/pi-coding-agent": "*"
+  }
+}
