@@ -1,6 +1,6 @@
 {
   "name": "pi-provider-crofai",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "module",
   "description": "CrofAI model provider extension for the pi coding agent.",
   "keywords": [
