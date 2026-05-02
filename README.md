@@ -99,7 +99,7 @@ If the pricing page is unavailable, the extension falls back to a bundled model 
 From this repo:
 
 ```bash
-pi --no-extensions -e . --list-models | grep crofai
+npm run check
 ```
 
 You should see CrofAI models, including vision-capable ones like `kimi-k2.6`, `kimi-k2.5`, `gemma-4-31b-it`, and some Qwen models marked with image support.

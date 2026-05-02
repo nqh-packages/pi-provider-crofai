@@ -32,12 +32,12 @@
   },
   "pi": {
     "extensions": [
-      "./extensions/index.ts"
+      "./extensions"
     ]
   },
   "scripts": {
     "build": "echo 'nothing to build'",
-    "check": "echo 'typecheck this package inside a pi dev checkout or load it with pi -e .'",
+    "check": "pi --no-extensions -e . --list-models crofai >/dev/null",
     "prepublishOnly": "npm run check"
   },
   "peerDependencies": {
